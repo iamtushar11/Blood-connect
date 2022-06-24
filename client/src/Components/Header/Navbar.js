@@ -141,7 +141,7 @@ const NavbarTop = () => {
                       Your Profile
                     </Link>
                     <a
-                      href='https://pulkit-30.github.io/BloodConnect/'
+                      href='https://iamtushar11.github.io/Blood-connect/'
                       target={'_blank'}
                       className='link'
                     >
