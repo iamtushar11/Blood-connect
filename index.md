@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+![1](https://user-images.githubusercontent.com/76155456/167236921-c31be9b0-4ba8-4c2f-982f-42b59ec62e2b.png)
 
-You can use the [editor on GitHub](https://github.com/iamtushar11/Blood-connect/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Blood Connect : <span style="color:green">The Gift to Life</span>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Problem Statement
 
-### Markdown
+As you know , at present times finding blood group match is a tough row to hoe. Many peoples are unable to find their or their close peoples’ blood group in medical emergencies and are going through very critical conditions.
+And hence BloodConnect is developed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Solution
 
-```markdown
-Syntax highlighted code block
+BloodConnect is an initiative which can help you in finding a person who has the blood group that you need and can really help you in times when someone who wants to, can’t.
+Wish that no one needs this but in case as you know ideal things does not exist, if anyone needs ,you can be very helpful to that anyone.
 
-# Header 1
-## Header 2
-### Header 3
+---
+## WorkFlow
 
-- Bulleted
-- List
+![Untitled document](https://user-images.githubusercontent.com/76155456/172639382-3f833783-8f83-4186-9981-03b6f176fa94.jpg)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+## Setup
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![Poster](https://user-images.githubusercontent.com/76155456/167236926-956da010-ab7b-4749-86c1-cc943959ca33.png)
 
-### Jekyll Themes
+#### Steps to SetUp
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iamtushar11/Blood-connect/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Open Terminal and run
 
-### Support or Contact
+1.  `git clone git@github.com:iamtushar11/Blood-connect.git`
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+2.  `cd BloodConnect`
+
+3.  `npm install`
+
+4.  `npm start`
+
+5.  `git submodule init`
+
+6.  `git submodule update`
+
+7.  `cd Technovation-Hackathon`
+
+8.  `yarn`
+
+9.  `npm start`
+
+#### Add `.env` file or change name of `.env.example` to `.env` and required information init
+
+#### That's it , your project has been setup successfully 🥳
+
+---
+
