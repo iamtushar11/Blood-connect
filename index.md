@@ -52,3 +52,7 @@ Open Terminal and run
 
 ---
 
+## Presentation
+
+[_Blood Connect Final.pdf](https://github.com/iamtushar11/Blood-connect/files/8975045/_Blood.Connect.Final.pdf)
+
