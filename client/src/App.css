@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=EB+Garamond&family=Macondo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Comfortaa', cursive !important;
+  line-height: 2;
+}
+.navbar {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.logo {
+  font-family: 'Courier New', Courier, monospace;
+}
+.heading {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  flex-direction: column;
+}
+.link {
+  cursor: pointer;
+  width: 90%;
+  display: block;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin: 5px auto;
+  color: black;
+  text-decoration: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.link:hover {
+  background-color: rgb(194, 194, 194);
+}
+.link-secondary {
+  color: rgb(0, 230, 100);
+  text-decoration: none;
+}
+.link-secondary:hover {
+  color: rgb(24, 255, 128);
+}
+.processing-mail {
+  background-color: rgba(0, 0, 0, 0.621);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.learnAbout {
+  padding: 70px;
+}
+.carousel-item img {
+  height: 60vh !important;
+}
+.loginForm {
+  min-height: 50vh;
+  position: relative;
+  bottom: 10px;
+  padding: 30px 0px;
+}
+.tableDiv {
+  padding: 30px;
+  min-height: 65vh;
+}
+@media screen and (max-width: 550px) {
+  .learnAbout {
+    padding: 5px;
+  }
+  .footer {
+    font-size: smaller;
+    text-align: center;
+  }
+  .navbar {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0px;
+    position: absolute;
+  }
+  .carousel-item img {
+    height: 40vh !important;
+  }
+  .cardsCol {
+    padding-top: 20px !important;
+  }
+  .AuthForm_Input__-mgy0 {
+    width: 90% !important;
+  }
+  .AuthForm_btn__VhdJ2 {
+    width: 50% !important;
+  }
+  .dropBtn {
+    width: 90% !important;
+  }
+  .dropBtn span {
+    margin-left: 2px !important;
+  }
+  .tableDiv {
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .searchBox {
+    /* display: flex; */
+    width: 100%;
+  }
+}

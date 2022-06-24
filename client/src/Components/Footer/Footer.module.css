@@ -1,0 +1,28 @@
+.Footer {
+  color: white;
+  height: 500px;
+  z-index: 10;
+  position: relative;
+  background-color: black;
+}
+.Footer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.seekpng.com/png/full/25-255187_map-clipart-green-world-green-world-map-png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.Quote {
+  font-family: fantasy;
+  font-size: 20px;
+  letter-spacing: 2px;
+}

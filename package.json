@@ -1,0 +1,36 @@
+{
+  "name": "club_zone",
+  "version": "1.0.0",
+  "description": "this is backend server for club_zone",
+  "main": "app.js",
+  "scripts": {
+    "up":"docker-compose up",
+    "down":"docker-compose down",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulkit-30/club_zone.git"
+  },
+  "author": "Pulkit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pulkit-30/club_zone/issues"
+  },
+  "homepage": "https://github.com/pulkit-30/club_zone#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "engines": {
+    "node": "14.18.0"
+  }
+}
